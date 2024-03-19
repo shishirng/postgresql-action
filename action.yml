@@ -15,6 +15,10 @@ inputs:
     description: 'POSTGRES_DB - name for the default database that is created'
     required: false
     default: ''
+  postgres multiple databases:
+    description: 'POSTGRES_MULTIPLE_DATABASES - optional additional databases'
+    required: false
+    default: ''
   postgresql user:
     description: 'POSTGRES_USER - create the specified user with superuser power'
     required: false
